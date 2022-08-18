@@ -1,0 +1,24 @@
+.banner{
+    width: 100%;
+}
+.banner-img{
+    width: 100%;
+}
+.shopnow-btn{
+    position: absolute;
+    top: 500px;
+    left: 70%;
+    width: 18%;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.shopnow-btn:hover{
+    background-color: rgb(255, 202, 161);
+}
+.branch-list{
+    margin: 1rem;
+    cursor: pointer;
+}
+.branch-logo{
+    width: 120px;
+}
