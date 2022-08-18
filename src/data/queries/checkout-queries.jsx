@@ -31,3 +31,12 @@ export const GET_PRODUCT_DETAILS = gql`
         }
     }
 `
+
+export const GET_FEE = gql`
+    query Fee($location: String!) {
+        fee(location: $location) {
+        shipping
+        tax
+        }
+    }
+`

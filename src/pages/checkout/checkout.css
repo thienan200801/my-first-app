@@ -1,6 +1,34 @@
+textarea, input { 
+    outline: none; 
+}
 .btn.w-100.checkout-btn{
     background-color: #7fc613;
     color: white;
     font-weight: 600;
     font-size: large;
+}
+.checkoutbtn-bottom{
+    margin-top: 1rem;
+}
+.style-customer-form{
+    background-color: #F0F1F2;
+    margin-top: 1rem;
+    border-radius: 8px;
+    padding: 1rem;
+}
+.styleinput{
+    padding: 0.2rem 0.8rem;
+    border-radius: 6px;
+    width: 100%;
+}
+.styleinput:focus-visible{
+    border: 0px solid #fff;
+}
+.styleerror{
+    color: red;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+.stylelabel{
+    margin-top: 1rem;
 }
